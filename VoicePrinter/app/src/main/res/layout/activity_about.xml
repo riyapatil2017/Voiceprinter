@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BFA5"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.speech.voiceprinter.about">
+
+        <TextView
+            android:id="@+id/vr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="VOICE PRINTER"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/vr"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/app" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv"
+                android:layout_marginTop="40dp"
+                android:lineSpacingExtra="5dp"
+                android:text="Developed by Riya Patil &#38; Team"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Initiated by Mastek"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Special thanks to"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="M. H. Saboo Siddik College of Engineering"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Team initials:"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Riya Patil (Lead)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="riapatil1997@gmailcom"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nitika Tomar"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nitika1838@gmail.com"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nagma Shaikh"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nagmashaikh27.ns@gmail.com"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Naziya Sayyed"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sayyednaziya12@gmail.com"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="You can mail us on workerbee182@gmail.com"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="An initiative for creative thinking"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Made with &#60;3 in India"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

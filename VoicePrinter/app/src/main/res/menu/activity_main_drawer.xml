@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_record"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Record" />
+        <item
+            android:id="@+id/nav_saved"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View" />
+        <item
+            android:id="@+id/nav_offline"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Offline Mode" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

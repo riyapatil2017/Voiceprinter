@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Voice Printer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about">Developed by Riya Patil &#38; Team
+        Initiated by Mastek
+        Special thanks to
+        M.H.Saboo Siddik College of Engineering
+        Team initials:
+        
+        Riya Patil (Lead)
+        riapatil1997@gmailcom
+        
+        Nitika Tomar
+        nitika1838@gmail.com
+        
+        Nagma Shaikh
+        nagmashaikh27.ns@gmail.com
+        
+        Naziya Sayyed
+        sayyednaziya12@gmail.com
+        
+
+        You can mail us on workerbee182@gmail.com
+
+
+        An initiative for creative thinking
+           Made with &#60;3 in India</string>
+</resources>
